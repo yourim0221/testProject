@@ -1,0 +1,26 @@
+1. 우도
+https://api.visitjeju.net/photomng/thumbnailpath/201804/30/e1c2f9e4-bf4c-488c-884c-5674f8d8b119.jpg
+
+2. 성산일출봉
+https://api.visitjeju.net/photomng/thumbnailpath/201810/17/e798d53c-1c8a-4d44-a8ab-111beae96db4.gif
+
+3. 사려니숲길
+https://api.visitjeju.net/photomng/thumbnailpath/201804/30/c9c42359-f82f-43a4-919e-03ecd197a2eb.jpg
+
+4. 카멜리아힐
+https://api.visitjeju.net/photomng/thumbnailpath/201804/30/7b9e075d-fcd5-4eb6-83e9-e55cf799c2ba.jpg
+
+5. 협재해수욕장
+https://api.visitjeju.net/photomng/thumbnailpath/201804/30/4788623b-fe05-4b21-a9ef-2406c8eadb23.jpg
+
+6. 월정리해변
+https://api.visitjeju.net/photomng/thumbnailpath/201804/30/d218b9b6-a3d2-4f64-8f93-fafcb4f9278b.jpg
+
+7. 함덕해수욕장
+https://api.visitjeju.net/photomng/thumbnailpath/201804/30/a0da4b95-9da0-45f3-921b-a820ccc5d427.jpg
+
+8. 산굼부리
+https://api.visitjeju.net/photomng/thumbnailpath/201804/30/a7b4a973-40e9-44e6-87d9-46a4c4f3b367.jpg
+
+
+

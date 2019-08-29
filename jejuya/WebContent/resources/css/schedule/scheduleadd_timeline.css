@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.timeline_box {
+	/* float: left; */
+	margin-top: -15px;
+	
+	margin-left: 150px;
+	padding:5px 5px;
+}
+
+.timeline_box th {
+	border: 1px solid #1b1b1b;
+	border-right-color: #e5e5e5;
+	height: 20px;
+	font-size: 16px;
+	font-weight: 400;
+	color: #ef6d00;
+	background: #1b1b1b;
+}
+.timelinetable{
+	text-align: center;
+	
+}

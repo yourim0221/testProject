@@ -1,0 +1,323 @@
+@charset "UTF-8";
+
+/* scheduleadd의 모든 요소를 감싸는 div 태그 */
+.mainWrapScheduleAdd {
+	/* 최소 너비 네비게이션바와 일치하게끔 설정 */
+	width: 70%;
+	min-width: 992px;
+	max-width: 992px;
+	height: 90%;
+	min-height: 800px;
+/* 	//background-color: #000000; */
+	margin: 0 auto;
+}
+
+/* 여행일정 시작일, 종료일 등 선택하는 부분 */
+.setScheduleOption {
+	width: 300px;
+	max-width: 300px;
+	min-width: 300px;
+	height: 350px;
+	background-color: #ffffff;
+	
+	margin: 5px;
+	position: absolute;
+	
+	padding: 5px;
+}
+
+/* 타임라인에 스케쥴을 추가하는 부분 */
+.scheAdder {
+	width: 300px;
+	height: 400px;
+	background-color: #ffffff;
+	margin: 5px;
+	
+	margin-top: 370px;
+	position: absolute;
+	
+	padding: 5px;
+}
+
+/* 지도와 각 관음숙의 정보가 표시되는 부분 */
+.mapAboutEachSights {
+	width: 250px;
+	height: 620px;
+	background-color: #ffffff;
+	margin: 5px;
+	
+	margin-left: 320px;
+	position: absolute;	
+}
+
+/* 유저가 선택한 타임라인을 보여주는 부분 */
+.addedScheTimeline {
+	width: 400px;
+	height: 620px;
+	background-color: #ffffff;
+	margin: 5px;
+	
+	margin-left: 580px;
+	position: absolute;
+}
+
+#timelineDetailVeil{
+	background-color: rgb(0,0,0,0.4);
+	width:240px;
+	height:615px;
+	position:absolute;
+	top: 0px;
+	left: 155px;
+	z-index: 30;
+}
+
+/* 관음숙 랭킹을 보여주는 부분 */
+.sightsRankDiagram {
+    width: 660px;
+    height: 220px;
+	background-color: #ffffff;
+	margin: 5px;
+	position: absolute;
+	
+	margin-left: 320px;
+	margin-top: 630px;	
+}
+
+/* datepicker  */
+#ui-datepicker-div { 
+    background-color: #ffffff; 
+} 
+#addtable{
+     border:4px solid orange;
+	color:gray;
+}
+#triplist{
+	border:4px solid gray;
+	color:gray;
+	text-align:center;
+}
+#addtabledetail{
+ 	align:center; 
+	
+}
+
+
+.mylist{
+	margin-top:40px;
+	padding:30px;
+    float: left;
+    position: relative;
+    width: 270px;
+    height: 210px;
+    margin-left: 27px;
+    background: #fbfff1;
+    -webkit-box-shadow: 3px 4px 5px 0 rgba(2,2,2,.2);
+    box-shadow: 3px 4px 5px 0 rgba(2,2,2,.2);
+    text-align: center
+}
+.mylist td{
+    margin: 0;
+    padding: 0;
+    font-family: "NanumSquare", "Nanum Gothic", "나눔고딕", "맑은 고딕", "Malgun Gothic", "Open Sans", "Dotum", "돋움", arial, sans-serif;
+    color:coral;
+}
+.item_del{
+position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    background: url("/jejuya/resources/image/main/btn_del.png") no-repeat 0 0;
+    text-indent: -9999px;
+}
+.total{
+ padding-bottom:800px;
+   padding-top:50px;
+   margin: auto;
+   width: 1000px;
+   min-width:1300px;
+   vertical-align:middle;
+ flex-wrap:wrap;
+
+  }
+ #titlename{
+   border-color:orange;
+    height:53px;
+    width:300px;
+     border-style:solid;
+    border-width: medium;
+  }
+      #searchselecttitle{
+ border-style:solid;0
+    border-width: medium;
+    height:54px;
+    border-color:orange;
+  }
+    #pajing{
+    margin-top:30px;
+    margin-right:100px
+  }
+  .s_day {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 22px;
+    padding: 0 13px;
+    background: #333;
+    font-size: 13px;
+    color: #fff;
+    line-height: 22px;
+}
+ .s_tit {
+ 	align:center;
+    overflow: hidden;
+    margin: 19px auto 0;
+    width: 94%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 19px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+   margin-top: 100px;
+}
+ .s_theme {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0 10px;
+    margin-top: 11px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+}
+.dt{
+	padding-top: 5px;
+    font-size: 22px;
+    font-weight: 700;
+    color: coral;
+    line-height: 38px;
+    padding-bottom:30px;
+}
+
+#jejuimg{
+	position:absolute;
+}
+.order_type{
+	margin-left:730px;
+}
+
+#pagingbtn{
+	position:absolute;
+	top:1060px;
+	left:890px;
+	margin:auto;
+	font-size:24px;
+}
+
+.wrap_tit {
+    font-size: 24px;
+    font-weight: 800;
+    color: #1b1b1b;
+    line-height: 24px;
+    margin-top: 40px;
+}
+.count_list.clear{
+	float:left;
+	padding:20px;
+}
+
+.count_list.clear a{
+   padding :2px;
+   font-size:18px
+
+}
+.e_day{
+    height: 22px;
+    
+     position:absolute;
+     margin-left:-30px;
+	 background: #64a19d;
+     font-size: 13px;
+     color: #fff;
+}
+
+.add_day{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 22px;
+    padding: 0 13px;
+  background: #ffc107;
+    font-size: 13px;
+    color: #fff;
+    line-height: 22px;
+}
+.my_tour .profile_wrap .name_zone {
+    float: left;
+    width: 885px;
+    height: 41px;
+    padding: 14px 0 0 30px;
+    border-bottom: 1px solid #e5e5e5;
+}
+ .count_zone {
+    position: relative;
+   
+    width: 744px;
+    height: 100px;
+}
+ .count_list {
+    position: absolute;
+    top: 41px;
+    left: 50px;
+    width: 380px;
+}
+.fl {
+    float: left!important;
+}
+.mt0 {
+    margin-top: 0!important;
+}
+d1{
+	margin: 0;
+    padding: 0;
+    font-family: NanumSquare,Nanum Gothic,\\B098\B214\ACE0\B515,"\B9D1\C740 \ACE0\B515",Malgun Gothic,Open Sans,Dotum,\\B3CB\C6C0,arial,sans-serif;
+}
+.profile_wrap {
+    margin-top: 50px;
+    background: #64a19d;
+    border: 1px solid #e9ecef;
+}
+
+.photo_zone{
+
+margin-top: 100px;	
+ background: #ffc107;
+height:50px;
+ background: #ffc107;
+ font-size:20px;
+}
+#showWeatherForcast{
+	padding:13px
+
+}
+
+#weatherImg{
+	float:left;
+	
+}
+.user_name{
+	margin:auto;
+
+	color:orange;
+	font-size:30px;
+}
+.text_tit {
+    margin-top: 4px;
+    font-size: 18px;
+    color: #313131;
+}
+#addtabledetail{
+	 border:4px solid orange;
+	 color:gray;
+}
